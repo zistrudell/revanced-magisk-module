@@ -9,8 +9,7 @@ build-mindetach-module = true
 [YouTube]
 enabled = true
 build-mode = "both" # 'both', 'apk' or 'module'
-excluded-patches = "debugging" # whitespace seperated list of patches to exclude (multiline strings are not supported)
-included-patches = "" # whitespace seperated list of patches to include
+excluded-patches = "debugging always-autorepeat disable-fullscreen-panels hide-autoplay-button hide-captions-button hide-cast-button hide-info-cards hide-time-and-seekbar microg-support spoof-app-version swipe-controls" # whitespace seperated list of patches to exclude (multiline strings are not supported)
 version = "auto" # 'auto', 'latest' or a custom one like '17.40.41'
 exclusive-patches = false # excludes all patches by default
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube/"
